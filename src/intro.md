@@ -18,19 +18,19 @@ Title: 140c RPG
 
 Note: Characters start at Level 0.
 
-* Three stats, STRength, DEXterity, INTelligence,
-* Spread -2, 0 and +1 scores for these stats the way you want. (e.g. 0 for *STR*, +1 to *DEX* and -2 for *INT*)
-* Pick a class: Warrior, Thief or Mage. Each one of them gives you a +1 bonus in *STR*, *DEX* and *INT* respectively.
-* Hits Points equal to 6 + your *STR* + your Level.
-* Actions are solved using two 6-sided dice, adding the corresponding stat. If the result is below 6, you fail. If it's between 7 and 9, it's a mixed result, if it's above 10, it's a success.
+* Three **stats**, STRength, DEXterity, INTelligence,
+* Spread -2, 0 and +1 **scores** for these stats the way you want. (e.g. 0 for *STR*, +1 to *DEX* and -2 for *INT*)
+* Pick a **class**: Warrior, Thief or Mage. Each one of them gives you a +1 bonus in *STR*, *DEX* and *INT* respectively.
+* **Hits Points** equal to 6 + your *STR* + your Level.
+* **Actions** are solved using two 6-sided dice, adding the corresponding stat. If the result is below 6, you fail. If it's between 7 and 9, it's a mixed result, if it's above 10, it's a success.
 * In case you've lost Hit Points, add a -1 malus to your rolls for every HP below 6.
-* Magicians can cast spells up to your *INT* score + Level per day.
+* Magicians can cast **spells** up to your *INT* score + Level per day.
 
 You see? easy!
 
 ## Class-less variant
 
-(a.k.a "the Grand Vernois" - 137c)
+(a.k.a *the Grand Vernois* - 137c)
 
     Lvl: 0
     STR/DEX/INT (-2<=stat<=+1, sum==0)
