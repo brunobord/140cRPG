@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>140c RPG</title>
+<link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Oxygen:400,700' rel='stylesheet' type='text/css'>
+<style type="text/css">
+body {
+	width: 720px;
+	margin: auto;
+	font-family: 'Oxygen', sans-serif;
+}
+pre {
+	font-family: 'Ubuntu Mono', monospace;
+	background-color: #f0f0f0;
+	padding: 0.5em;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+blockquote {
+	margin-left: 2em;
+	border-left: 2px solid #690;
+	padding: .75em;
+	font-style: italic;
+}
+footer {
+	margin-top: 2em;
+	border-top: 1px solid black;
+	padding-top: 0.33em;
+}
+footer p {
+	font-size: .8em;
+}
+h1 {
+	border-bottom: 1px solid #555;
+}
+</style>
+</head>
+<body>
+<h1 id="140c-rpg">140c RPG</h1>
+<blockquote>
+<p>Can we actually design a (playable) RPG system that would fit in a tweet?</p>
+</blockquote>
+<h2 id="current-version">Current version</h2>
+<p>(published: 2014-07-16 - 140c)</p>
+<pre><code>STR/DEX/INT spread -2,0,+1
++1:Warrior/STR,Thief/DEX,Mage/INT
+HP:6+STR+lvl
+Act:2d6+stat(-1/HP&lt;6). 6-:KO, 7-9:so-so, 10+:OK
+Spell: INT+lvl/day
+</code></pre>
+<h3 id="detailed-explanation">Detailed explanation</h3>
+<p>Note: Characters start at Level 0.</p>
+<ul>
+<li>Three stats, STRength, DEXterity, INTelligence,</li>
+<li>Spread -2, 0 and +1 scores for these stats the way you want. (e.g. 0 for <em>STR</em>, +1 to <em>DEX</em> and -2 for <em>INT</em>)</li>
+<li>Pick a class: Warrior, Thief or Mage. Each one of them gives you a +1 bonus in <em>STR</em>, <em>DEX</em> and <em>INT</em> respectively.</li>
+<li>Hits Points equal to 6 + your <em>STR</em> + your Level.</li>
+<li>Actions are solved using two 6-sided dice, adding the corresponding stat. If the result is below 6, you fail. If it's between 7 and 9, it's a mixed result, if it's above 10, it's a success.</li>
+<li>In case you've lost Hit Points, add a -1 malus to your rolls for every HP below 6.</li>
+<li>Magicians can cast spells up to your <em>INT</em> score + Level per day.</li>
+</ul>
+<p>You see? easy!</p>
+<h2 id="class-less-variant">Class-less variant</h2>
+<p>(a.k.a "the Grand Vernois" - 137c)</p>
+<pre><code>Lvl: 0
+STR/DEX/INT (-2&lt;=stat&lt;=+1, sum==0)
+HP: 6+STR+lvl
+Act: 2d6+stat(-1/HP&lt;6) 6-:KO, 7-9:so-so, 10+:OK
+Spell: INT+lvl/day if Magic-aware
+</code></pre>
+<p>In this variant, you don't have a class bonus. You can spread your scores the same way, with the only limitation to have your all your stats between -2 and +1 (inclusive) and the sum of your stats should equals to 0.</p>
+<p>Now you can play a Warrior with -2 to his/her <em>STR</em> score.</p>
+
+<footer>
+	<p>140c RPG by Bruno Bord is published under the terms of the Creative Commons Attribution</a>.</p>
+	<p><a href="https://github.com/brunobord/140cRPG/">Fork this project on Github</a></p>
+	<p><small>Generated on Thu, 17 Jul 2014 00:11</small></p>
+</footer>
+
+</body>
+</html>
