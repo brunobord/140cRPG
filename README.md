@@ -34,8 +34,7 @@ The "Act" resolution system is borrowed from the Apocalypse World RPG engine ; i
 
 ## More to come...
 
-* Actually build a website out of this document,
-* Detailed explanations of the "zip'ed" rules,
+* [WIP] Actually build a website out of this document,
 * Advanced rules that would develop the "fuzzy" areas (Fights, Magic, Levels). My intent is to squeeze each section to a maximum of 140c.
 * Variants and spin-offs (Cthulhu, Star Wars, Harry Potter, Zombie, Cowboys,...)
 
