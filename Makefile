@@ -1,10 +1,9 @@
 
 build:
-	python rpg.py build
-	@echo "Built"
+	drift build
 
 clean:
-	python rpg.py clean
+	drift clean
 	@echo "Cleaned"
 
 .PHONY: clean build
