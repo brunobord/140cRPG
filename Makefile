@@ -1,6 +1,6 @@
 
 build:
-	drift build
+	drift build --navigation-file src/navigation.json
 
 clean:
 	drift clean

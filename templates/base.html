@@ -2,42 +2,38 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>{{ title }}</title>
+	<title>140c RPG - {{ title }}</title>
 <link href='//fonts.googleapis.com/css?family=Ubuntu+Mono|Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ path_prefix }}/static/styles.css">
 <style type="text/css">
-body {
-	width: 720px;
-	margin: auto;
-	font-family: 'Lora', sans-serif;
-}
-pre {
-	font-family: 'Ubuntu Mono', monospace;
-	background-color: #f0f0f0;
-	padding: 0.5em;
-	margin-left: 2em;
-	margin-right: 2em;
-}
-blockquote {
-	margin-left: 2em;
-	border-left: 2px solid #690;
-	padding: .75em;
-	font-style: italic;
-}
-footer {
-	margin-top: 2em;
-	border-top: 1px solid black;
-	padding-top: 0.33em;
-}
-footer p {
-	font-size: .8em;
-}
-h1 {
-	border-bottom: 1px solid #555;
-}
+
 </style>
 </head>
 <body>
+
+<header>
+	<h1>{{ title }}</h1>
+	<nav>
+    <ul>
+    <li {% if current == root_name %}class="active"{% endif %}><a href="{{ path_prefix }}/">Home</a></li>
+    {% for item in navigation recursive %}
+        {% if item.url != None %}
+            <li {% if item.url == current %}class="active"{% endif %}>{% if item.url != "" %}<a href="{{ path_prefix }}/{{ item.url }}/">{{ item.caption }}</a>{% else %}{{ item.caption }}{% endif %}</li>
+            {%- if item.children -%}
+                <ul>{{ loop(item.children) }}</ul>
+            {%- endif -%}
+        {% else %}
+            <li>{{ item.caption }}</li>
+        {% endif %}
+    {% endfor %}
+	</ul>
+
+	</nav>
+</header>
+
+<article>
 {{ content }}
+</article>
 
 <footer>
 	<p>140c RPG by Bruno Bord is published under the terms of the Creative Commons Attribution</a>.</p>

@@ -1,7 +1,5 @@
 Title: 140c RPG
 
-# 140c RPG
-
 > Can we actually design a (playable) RPG system that would fit in a tweet?
 
 ## Current version
