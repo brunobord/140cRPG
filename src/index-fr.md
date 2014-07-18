@@ -22,7 +22,7 @@ Note: Les personnages commencent au niveau 0 (Lvl)
 * **Hits Points** (les Points de vie) sont de 6 + ta *STR* + ton Niveau.
 * Les **Actions** sont résolues avec deux dés à 6 faces, ajoutés à la stat correspondante. Si le résultat est en-dessous de 6, c'est un échec. S'il est entre 7 et 9, résultat mitigé. S'il dépasse 10, c'est un succès.
 * Dans le cas où tu as perdu des Points de vie, ajoute un malus de -1 pour chaque Point de vie en-dessous de 6..
-* Les Magiciens peuvent lancer un nombre de sorts équivalent à ton *INT* + ton niveau par jour.
+* Les Magiciens peuvent lancer un nombre de **sorts** équivalent à ton *INT* + ton niveau par jour.
 
 Tu vois ? c'est simple !
 
