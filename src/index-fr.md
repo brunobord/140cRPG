@@ -38,5 +38,6 @@ Tu vois ? c'est simple !
 
 Dans cette variante, il n'y a pas de bonus de classe. Tu peux répartir tes scores de la même manière, avec pour seule limitation que ces scores doivent être compris entre -2 et +1 inclus, et que la somme de ces scores doit être *zéro*.
 
+<small>Maintenant, tu peux essayer de jouer un guerrier avec -2 en *STR*, si tu veux.</small>
 
-Maintenant, tu peux essayer de jouer un guerrier avec -2 en *STR*.
+Ces jeux sont l'oeuvre de [Bruno Bord](http://jehaisleprintemps.net/). Ils sont publiés selon les termes du contrat [Creative Commons CC-BY](http://creativecommons.org/licenses/by/4.0/).

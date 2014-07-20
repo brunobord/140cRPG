@@ -38,4 +38,6 @@ You see? easy!
 
 In this variant, you don't have a class bonus. You can spread your scores the same way, with the only limitation to have your all your stats between -2 and +1 (inclusive) and the sum of your stats should equals to 0.
 
-Now you can play a Warrior with -2 to his/her *STR* score.
+<small>Now you can play a Warrior with -2 to his/her *STR* score, if you like.</small>
+
+Both games are the work of [Bruno Bord](http://jehaisleprintemps.net/). These games are published under the terms of the [CC-BY License](http://creativecommons.org/licenses/by/4.0/).

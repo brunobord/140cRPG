@@ -1,3 +1,4 @@
 [
-    {"url": "index-fr", "caption": "Français"}
+    {"url": "index-fr", "caption": "Français"},
+    {"url": "about", "caption": "About"}
 ]
