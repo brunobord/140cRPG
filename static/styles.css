@@ -53,3 +53,11 @@ blockquote {
     padding: .75em;
     font-style: italic;
 }
+
+.anchor-link a {
+    color: #fff;
+    text-decoration: none;
+}
+.anchor-link a:hover {
+    color: #bbb;
+}
